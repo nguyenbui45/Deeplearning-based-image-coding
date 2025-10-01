@@ -1,0 +1,48 @@
+# general
+seed: 42
+enable_progress_bar: True
+
+# for Rate-Distortion loss
+gamma: 0.006
+lam: [0.0018, 0.0035, 0.0067, 0.013, 0.025, 0.0483]
+
+
+# network set up
+base_channel: 128
+enhancement_channel: 64
+latent_channel: 192
+LST_out_channel: 256
+YOLO_evaluation_layer: 12
+
+# For training
+batch_size: 16
+
+# stage I
+num_epoch_stageI: 3
+optimizer_stageI: Adam
+LR_stageI: 1e-4
+scheduler_stageI: None
+weight_decay: 1e-4
+
+# stage II
+num_epoch_stageII: 3
+optimizer_stageII: Adam
+LR_stageII: 1e-4
+scheduler_stageII: Polynomial
+decay_every: 10
+power: 2
+
+
+# dataset configuration
+train_patch_size: 256
+patches_per_image: 3
+inference_image_size: 256
+resize_method: 'bicubic'
+
+# gpu
+# gpu:
+#   - 0
+#   - 1
+#   - 2
+#   - 3
+gpu: 1

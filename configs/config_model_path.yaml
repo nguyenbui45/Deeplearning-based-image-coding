@@ -1,0 +1,8 @@
+checkpoint_dir: '/home/nguyensolbadguy/Code_Directory/compression/ckpt'
+train_stageI: 'ckpt/stageI/train.csv'
+validation_stageI: 'ckpt/stageI/validation.csv'
+best_validation_stageI: 'ckpt/stageI/best_validation.csv'
+
+train_stageII: 'ckpt/stageII/train.csv'
+validation_stageII: 'ckpt/stageII/validation.csv'
+best_validation_stageII: 'ckpt/stageII/best_validation.csv'

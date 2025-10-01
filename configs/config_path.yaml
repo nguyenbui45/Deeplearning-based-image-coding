@@ -1,0 +1,16 @@
+# train dataset path
+CLIC_image_list: '/home/nguyensolbadguy/Code_Directory/compression/datasets/CLIC2021/CLIC_image_list.txt'
+DIV2K_image_list: '/home/nguyensolbadguy/Code_Directory/compression/datasets/DIV2K/DIV2K_image_list.txt'
+VIMEO90K_train_image_list: '/home/nguyensolbadguy/Code_Directory/compression/datasets/vimeo90k/VIMEO90K_train_image_list.txt'
+VIMEO90K_validation_image_list: '/home/nguyensolbadguy/Code_Directory/compression/datasets/vimeo90k/VIMEO90K_validation_image_list.txt'
+
+# inference dataset path
+COCO2014_image_list: '/home/nguyensolbadguy/Code_Directory/compression/datasets/COCO2014/COCO2014_image_list.txt'
+COCO2014_annotation_dir: '/home/nguyensolbadguy/Code_Directory/compression/datasets/COCO2014/labels/val2014'
+
+KODAK_image_list: '/home/nguyensolbadguy/Code_Directory/compression/datasets/Kodak/KODAK_image_list.txt'
+
+
+
+
+
