@@ -6,11 +6,12 @@ Implementation of Deeplearning-based image coding scheme from the works of: "Sca
 
 This work in this repo was trained on CLIC 2020 dataset (686 images), DIV2K dataset(900 images) and VIMEO90K dataset (165,285 images) for 30 epochs.
 
-<center>
+<div align="center">
 ![Reconstructed images after only 30 epochs](images/image.png)
-</center>
+</div>
 ___Reconstructed images after only 30 epochs___
-<center>
+
+<div align="center">
 ![Validation PSNR over 30 epochs](images/psnr.png)
-</center>
+</div>
 ___Validation PSNR over 30 epochs___
