@@ -9,9 +9,9 @@ This work in this repo was trained on CLIC 2020 dataset (686 images), DIV2K data
 <p align="center">
 <img alt="Reconstructed images after only 30 epochs" src="images/image.png" width=400>
 </p>
-_Reconstructed images after only 30 epochs_
+<p align="center"><em>Reconstructed images after only 30 epochs</em></p>
 
 <p align="center">
 <img alt="Validation PSNR over 30 epochs" src="images/psnr.png" width=400>
 </p>
-_Validation PSNR over 30 epochs_
+<p align="center"><em>Validation PSNR over 30 epochs</em></p>
